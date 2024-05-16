@@ -1,0 +1,50 @@
+﻿using System;
+
+namespace Baetoti.Shared.Request.Provider
+{
+    public class ProviderRequest
+    {
+        public long UserID { get; set; }
+        public string RegionId { get; set; }
+        public string CityId { get; set; }
+        public long CountryId { get; set; }
+        public int IDType { get; set; }
+        public string GovernmentID { get; set; }
+        public string GovernmentIDPicture { get; set; }
+        public string GovernmentIDPictureBack { get; set; }
+        public string Title { get; set; }
+        public string Gender { get; set; }
+        public DateTime IssueDate { get; set; }
+        public DateTime ExpirationDate { get; set; }
+        public int ProviderStatus { get; set; }
+        public long ProviderID { get; set; }
+        public string FirstName { get; set; }
+        public string MiddleName { get; set; }
+        public string LastName { get; set; }
+        public string PhoneNumber { get; set; }
+        public bool IsCorpoarate { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public DateTime LastUpdatedAt { get; set; }
+        public string Signature { get; set; }
+        public bool IsCivilID { get; set; }
+        public string CopyofIDOrPassport { get; set; }
+        public string OwnerAdrress { get; set; }
+        public string CommercialRegistrationLicense { get; set; }
+        public string CompanyAddress { get; set; }
+        public string VATRegistrationCertificate { get; set; }
+        public string FreelanceCertificate { get; set; }
+        public string IBANNumber { get; set; }
+        public string BankAccountName { get; set; }
+        public string BankAccountNumber { get; set; }
+        public string BeneficiaryAddress { get; set; }
+        public string SwiftCode { get; set; }
+        public string CommercialNumber { get; set; }
+        public DateTime CommercialExpiry { get; set; }
+        public string VATRegistrationNumber { get; set; }
+        public string BankAccountCertificate { get; set; }
+        public string CompanyName { get; set; }
+        public string Position { get; set; }
+        public string BusinessCategory { get; set; }
+        public DateTime CommercialStartDate { get; set; }
+    }
+}
