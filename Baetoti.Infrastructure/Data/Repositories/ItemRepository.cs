@@ -619,6 +619,8 @@ namespace Baetoti.Infrastructure.Data.Repositories
                            && UserID == null || p.UserID != UserID //(UserID == null ? true : p.UserID != UserID)
                            && p.MarkAsDeleted == false
                            && (i.ItemStatus == 1 || i.ItemStatus == 3)
+                           && s.Name !="string" && !string.IsNullOrEmpty(s.Name)
+                           && s.BusinessLogo !="string" && !string.IsNullOrEmpty(s.BusinessLogo)
                            select new ItemListResponse
                            {
                                ID = i.ID,
